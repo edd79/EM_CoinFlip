@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin Flip</title>
+    <link href="/files/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    Welcome to the Coin Toss! Place Your Bet!!
+    <br><br>
+    <input type="radio" value="Heads" name="coinToss" id="chc">Heads
+
+    <br><br>
+    <input type="radio" value="Tails" name="coinToss" id="chc">Tails
+    <br><br>
+    <input type="button" value="Place Bet" onclick="selection()">
+    <br><br>
+    <div id="pick"></div>
+    <br><br>
+    <input type="button" id="toss" value="Toss the Coin">
+    <br><br>
+    <p id="res"></p>
+    <br>
+    <div>
+        <p id="h/t"></p>
+        <p id="h">Heads: </p>
+        <p id="t">Tails: </p>
+    </div>
+    <br>
+    <input type="button" id="reload" value="Refresh">
+    <!-- <div id="tally ">
+    <p id="human ">Human: </p>
+    <p id="computer ">Computer: </p>
+    </div>-->
+    <script src="/files/main.js"></script>
+</body>
+
+</html>
